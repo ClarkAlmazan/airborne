@@ -6,9 +6,9 @@ SECRET_KEY = 'you-will-never-guess'
 
 #Database Constants
 DB_TYPE = 'mysql://'
-MYSQL_USERNAME = 'root'
-MYSQL_PASSWORD = 'root'
-MYSQL_ROUTE = '@localhost/'
+MYSQL_USERNAME = 'airborne'
+MYSQL_PASSWORD = 'airborne12345'
+MYSQL_ROUTE = '@10.0.3.229:3306/'
 
 SQLALCHEMY_DATABASE_URI = DB_TYPE + MYSQL_USERNAME + ':' + MYSQL_PASSWORD + MYSQL_ROUTE + 'airborne'
 SQLALCHEMY_TRACK_MODIFICATIONS = False
